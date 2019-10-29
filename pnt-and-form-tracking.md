@@ -71,6 +71,9 @@ for (var i = 0; i < forms.length; i++) {
 
 <a href="https://gist.github.com/kolbaba/469b69a69a1422909329631117b03f30" target="_blank">See examples of usage
 
+**_GNL.refreshForms()**
+>Trigger the form init handler to rescan the DOM for forms. This is useful in situations where forms are injected into the DOM after the tracker code has initilized.
+
 ## Top 5 Things You Never Knew About Form Tracking
 1. If it's an iframe, we can't track it
 2. In Contact Form 7 you can add `html_class="class-here" html_id="id-here"` to the shortcode
